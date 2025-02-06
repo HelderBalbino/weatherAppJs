@@ -51,7 +51,6 @@ button[type='submit']:hover {
 }
 
 h1 {
-	font-size: 3.6rem;
 	margin-top: 0;
 	margin-bottom: 20px;
 }
@@ -67,14 +66,19 @@ p {
 
 .cityDisplay,
 .tempDisplay {
-	font-size: 2rem;
+	font-size: 3rem;
 	font-weight: bold;
-	color: #000;
+	color: hsla(0, 0%, 0%, 0.74);
 	text-align: center;
 	margin-bottom: 25px;
 }
 
 .humidityDisplay {
 	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.weatherEmoji {
+	font-size: 6rem;
 	margin-bottom: 25px;
 }
