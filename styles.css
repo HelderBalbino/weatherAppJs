@@ -84,5 +84,12 @@ p {
 
 .weatherEmoji {
 	font-size: 6rem;
-	margin-bottom: 25px;
+	margin-bottom: 0;
+}
+
+.errorDisplay {
+	color: rgba(255, 0, 0, 0.629);
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: 20px;
 }
