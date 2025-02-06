@@ -58,10 +58,8 @@ h1 {
 p {
 	font-size: 1.5rem;
 	margin: 5px 0;
-	line-height: 1.5;
 	color: #333;
 	text-align: justify;
-	font-style: italic;
 }
 
 .cityDisplay,
@@ -76,6 +74,12 @@ p {
 .humidityDisplay {
 	font-weight: bold;
 	margin-bottom: 25px;
+}
+
+.descriptionDisplay {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 2rem;
 }
 
 .weatherEmoji {
